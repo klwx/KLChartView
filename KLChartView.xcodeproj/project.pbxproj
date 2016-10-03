@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B43AEE01DA2390300CA34B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AEDF1DA2390300CA34B4 /* main.m */; };
+		6B43AEE31DA2390300CA34B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AEE21DA2390300CA34B4 /* AppDelegate.m */; };
+		6B43AEE61DA2390300CA34B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AEE51DA2390300CA34B4 /* ViewController.m */; };
+		6B43AEE91DA2390300CA34B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43AEE71DA2390300CA34B4 /* Main.storyboard */; };
+		6B43AEEB1DA2390300CA34B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B43AEEA1DA2390300CA34B4 /* Assets.xcassets */; };
+		6B43AEEE1DA2390300CA34B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43AEEC1DA2390300CA34B4 /* LaunchScreen.storyboard */; };
+		6B43AEF91DA2390300CA34B4 /* KLChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AEF81DA2390300CA34B4 /* KLChartViewTests.m */; };
+		6B43AF041DA2390300CA34B4 /* KLChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AF031DA2390300CA34B4 /* KLChartViewUITests.m */; };
+		6B43AF151DA239D000CA34B4 /* KLChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AF141DA239D000CA34B4 /* KLChartView.m */; };
+		6B43AF181DA239DE00CA34B4 /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AF171DA239DE00CA34B4 /* ChartModel.m */; };
+		6B43AF1B1DA23FC200CA34B4 /* KLDottedLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43AF1A1DA23FC200CA34B4 /* KLDottedLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B43AEF51DA2390300CA34B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B43AED31DA2390300CA34B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B43AEDA1DA2390300CA34B4;
+			remoteInfo = KLChartView;
+		};
+		6B43AF001DA2390300CA34B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B43AED31DA2390300CA34B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B43AEDA1DA2390300CA34B4;
+			remoteInfo = KLChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B43AEDB1DA2390300CA34B4 /* KLChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43AEDF1DA2390300CA34B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B43AEE11DA2390300CA34B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B43AEE21DA2390300CA34B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B43AEE41DA2390300CA34B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B43AEE51DA2390300CA34B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B43AEE81DA2390300CA34B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B43AEEA1DA2390300CA34B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B43AEED1DA2390300CA34B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B43AEEF1DA2390300CA34B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43AEF41DA2390300CA34B4 /* KLChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43AEF81DA2390300CA34B4 /* KLChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLChartViewTests.m; sourceTree = "<group>"; };
+		6B43AEFA1DA2390300CA34B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43AEFF1DA2390300CA34B4 /* KLChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43AF031DA2390300CA34B4 /* KLChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLChartViewUITests.m; sourceTree = "<group>"; };
+		6B43AF051DA2390300CA34B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43AF131DA239D000CA34B4 /* KLChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLChartView.h; sourceTree = "<group>"; };
+		6B43AF141DA239D000CA34B4 /* KLChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLChartView.m; sourceTree = "<group>"; };
+		6B43AF161DA239DE00CA34B4 /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
+		6B43AF171DA239DE00CA34B4 /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		6B43AF191DA23FC200CA34B4 /* KLDottedLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDottedLine.h; sourceTree = "<group>"; };
+		6B43AF1A1DA23FC200CA34B4 /* KLDottedLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDottedLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B43AED81DA2390300CA34B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43AEF11DA2390300CA34B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43AEFC1DA2390300CA34B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B43AED21DA2390300CA34B4 = {
+			isa = PBXGroup;
+			children = (
+				6B43AEDD1DA2390300CA34B4 /* KLChartView */,
+				6B43AEF71DA2390300CA34B4 /* KLChartViewTests */,
+				6B43AF021DA2390300CA34B4 /* KLChartViewUITests */,
+				6B43AEDC1DA2390300CA34B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B43AEDC1DA2390300CA34B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B43AEDB1DA2390300CA34B4 /* KLChartView.app */,
+				6B43AEF41DA2390300CA34B4 /* KLChartViewTests.xctest */,
+				6B43AEFF1DA2390300CA34B4 /* KLChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B43AEDD1DA2390300CA34B4 /* KLChartView */ = {
+			isa = PBXGroup;
+			children = (
+				6B43AF111DA239B400CA34B4 /* ChartView */,
+				6B43AEE11DA2390300CA34B4 /* AppDelegate.h */,
+				6B43AEE21DA2390300CA34B4 /* AppDelegate.m */,
+				6B43AEE41DA2390300CA34B4 /* ViewController.h */,
+				6B43AEE51DA2390300CA34B4 /* ViewController.m */,
+				6B43AEE71DA2390300CA34B4 /* Main.storyboard */,
+				6B43AEEA1DA2390300CA34B4 /* Assets.xcassets */,
+				6B43AEEC1DA2390300CA34B4 /* LaunchScreen.storyboard */,
+				6B43AEEF1DA2390300CA34B4 /* Info.plist */,
+				6B43AEDE1DA2390300CA34B4 /* Supporting Files */,
+			);
+			path = KLChartView;
+			sourceTree = "<group>";
+		};
+		6B43AEDE1DA2390300CA34B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B43AEDF1DA2390300CA34B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B43AEF71DA2390300CA34B4 /* KLChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B43AEF81DA2390300CA34B4 /* KLChartViewTests.m */,
+				6B43AEFA1DA2390300CA34B4 /* Info.plist */,
+			);
+			path = KLChartViewTests;
+			sourceTree = "<group>";
+		};
+		6B43AF021DA2390300CA34B4 /* KLChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B43AF031DA2390300CA34B4 /* KLChartViewUITests.m */,
+				6B43AF051DA2390300CA34B4 /* Info.plist */,
+			);
+			path = KLChartViewUITests;
+			sourceTree = "<group>";
+		};
+		6B43AF111DA239B400CA34B4 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				6B43AF121DA239BD00CA34B4 /* ChartModel */,
+				6B43AF131DA239D000CA34B4 /* KLChartView.h */,
+				6B43AF141DA239D000CA34B4 /* KLChartView.m */,
+				6B43AF191DA23FC200CA34B4 /* KLDottedLine.h */,
+				6B43AF1A1DA23FC200CA34B4 /* KLDottedLine.m */,
+			);
+			name = ChartView;
+			sourceTree = "<group>";
+		};
+		6B43AF121DA239BD00CA34B4 /* ChartModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B43AF161DA239DE00CA34B4 /* ChartModel.h */,
+				6B43AF171DA239DE00CA34B4 /* ChartModel.m */,
+			);
+			name = ChartModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B43AEDA1DA2390300CA34B4 /* KLChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43AF081DA2390300CA34B4 /* Build configuration list for PBXNativeTarget "KLChartView" */;
+			buildPhases = (
+				6B43AED71DA2390300CA34B4 /* Sources */,
+				6B43AED81DA2390300CA34B4 /* Frameworks */,
+				6B43AED91DA2390300CA34B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLChartView;
+			productName = KLChartView;
+			productReference = 6B43AEDB1DA2390300CA34B4 /* KLChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B43AEF31DA2390300CA34B4 /* KLChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43AF0B1DA2390300CA34B4 /* Build configuration list for PBXNativeTarget "KLChartViewTests" */;
+			buildPhases = (
+				6B43AEF01DA2390300CA34B4 /* Sources */,
+				6B43AEF11DA2390300CA34B4 /* Frameworks */,
+				6B43AEF21DA2390300CA34B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B43AEF61DA2390300CA34B4 /* PBXTargetDependency */,
+			);
+			name = KLChartViewTests;
+			productName = KLChartViewTests;
+			productReference = 6B43AEF41DA2390300CA34B4 /* KLChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B43AEFE1DA2390300CA34B4 /* KLChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43AF0E1DA2390300CA34B4 /* Build configuration list for PBXNativeTarget "KLChartViewUITests" */;
+			buildPhases = (
+				6B43AEFB1DA2390300CA34B4 /* Sources */,
+				6B43AEFC1DA2390300CA34B4 /* Frameworks */,
+				6B43AEFD1DA2390300CA34B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B43AF011DA2390300CA34B4 /* PBXTargetDependency */,
+			);
+			name = KLChartViewUITests;
+			productName = KLChartViewUITests;
+			productReference = 6B43AEFF1DA2390300CA34B4 /* KLChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B43AED31DA2390300CA34B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kl;
+				TargetAttributes = {
+					6B43AEDA1DA2390300CA34B4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6B43AEF31DA2390300CA34B4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6B43AEDA1DA2390300CA34B4;
+					};
+					6B43AEFE1DA2390300CA34B4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6B43AEDA1DA2390300CA34B4;
+					};
+				};
+			};
+			buildConfigurationList = 6B43AED61DA2390300CA34B4 /* Build configuration list for PBXProject "KLChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B43AED21DA2390300CA34B4;
+			productRefGroup = 6B43AEDC1DA2390300CA34B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B43AEDA1DA2390300CA34B4 /* KLChartView */,
+				6B43AEF31DA2390300CA34B4 /* KLChartViewTests */,
+				6B43AEFE1DA2390300CA34B4 /* KLChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B43AED91DA2390300CA34B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43AEEE1DA2390300CA34B4 /* LaunchScreen.storyboard in Resources */,
+				6B43AEEB1DA2390300CA34B4 /* Assets.xcassets in Resources */,
+				6B43AEE91DA2390300CA34B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43AEF21DA2390300CA34B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43AEFD1DA2390300CA34B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B43AED71DA2390300CA34B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43AF151DA239D000CA34B4 /* KLChartView.m in Sources */,
+				6B43AF181DA239DE00CA34B4 /* ChartModel.m in Sources */,
+				6B43AF1B1DA23FC200CA34B4 /* KLDottedLine.m in Sources */,
+				6B43AEE61DA2390300CA34B4 /* ViewController.m in Sources */,
+				6B43AEE31DA2390300CA34B4 /* AppDelegate.m in Sources */,
+				6B43AEE01DA2390300CA34B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43AEF01DA2390300CA34B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43AEF91DA2390300CA34B4 /* KLChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B43AEFB1DA2390300CA34B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43AF041DA2390300CA34B4 /* KLChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B43AEF61DA2390300CA34B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B43AEDA1DA2390300CA34B4 /* KLChartView */;
+			targetProxy = 6B43AEF51DA2390300CA34B4 /* PBXContainerItemProxy */;
+		};
+		6B43AF011DA2390300CA34B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B43AEDA1DA2390300CA34B4 /* KLChartView */;
+			targetProxy = 6B43AF001DA2390300CA34B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B43AEE71DA2390300CA34B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43AEE81DA2390300CA34B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B43AEEC1DA2390300CA34B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43AEED1DA2390300CA34B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B43AF061DA2390300CA34B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B43AF071DA2390300CA34B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B43AF091DA2390300CA34B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimai..KLChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B43AF0A1DA2390300CA34B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimai..KLChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B43AF0C1DA2390300CA34B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KLChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimai..KLChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLChartView.app/KLChartView";
+			};
+			name = Debug;
+		};
+		6B43AF0D1DA2390300CA34B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KLChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimai..KLChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLChartView.app/KLChartView";
+			};
+			name = Release;
+		};
+		6B43AF0F1DA2390300CA34B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KLChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimai..KLChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KLChartView;
+			};
+			name = Debug;
+		};
+		6B43AF101DA2390300CA34B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KLChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimai..KLChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KLChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B43AED61DA2390300CA34B4 /* Build configuration list for PBXProject "KLChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43AF061DA2390300CA34B4 /* Debug */,
+				6B43AF071DA2390300CA34B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B43AF081DA2390300CA34B4 /* Build configuration list for PBXNativeTarget "KLChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43AF091DA2390300CA34B4 /* Debug */,
+				6B43AF0A1DA2390300CA34B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B43AF0B1DA2390300CA34B4 /* Build configuration list for PBXNativeTarget "KLChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43AF0C1DA2390300CA34B4 /* Debug */,
+				6B43AF0D1DA2390300CA34B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B43AF0E1DA2390300CA34B4 /* Build configuration list for PBXNativeTarget "KLChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43AF0F1DA2390300CA34B4 /* Debug */,
+				6B43AF101DA2390300CA34B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B43AED31DA2390300CA34B4 /* Project object */;
+}
